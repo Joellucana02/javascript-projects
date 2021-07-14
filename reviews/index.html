@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,22 +16,11 @@
         body {
             background: #555;
         }
-        nav{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;    
-        }
-        button{
-            padding: .5rem;
-            font-size: 1rem;
-        }
         .container{
             text-align: center;
         }
     </style>
 </head>
-
 <body>
     <nav>
         <p>Logo</p>
@@ -42,12 +30,20 @@
     </nav>
     <main>
         <div class="container">
-            <h2>Background color : <span class="color">#555555</span></h2>
-            <button class="btn btn-sas" id="btn">Click me!</button>
+            <h2>Reviews</h2>
+            <article>
+                <h2 class="name-p"></h2>
+                <p class="job"></p>
+                <div >
+                    <img class="img-container" src="#" alt="woman">
+                </div>
+                <p class="info"></p>
+                <button class="btn-prev">prev</button>
+                <button class="btn-next">next</button>
+                <button class="btn-random">random</button>
+            </article>
         </div>
     </main>
-
-    <script src="./backgroundColor.js"></script>
+    <script src="./reviews.js"></script>
 </body>
-
 </html>
