@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <div class="container">
+            <article class="about">
+                <div>
+                    <button class="tab-btn active" data-id='one'>One</button>
+                </div>
+                <div>
+                    <button class="tab-btn" data-id='two'>Two</button>
+                </div>
+                <div>
+                    <button class="tab-btn" data-id='three'>Three</button>
+                </div>
+            </article>
+            <article class="about-content">
+                <div class="content active" id='one'>
+                    <h3>One</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non recusandae iusto eum ab consequuntur consectetur aperiam ratione inventore ducimus provident officia fugiat repellendus repellat sit, in, quos corrupti, illum qui.</p>
+                </div>
+                <div class="content " id='two'>
+                    <h3>Two</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non recusandae iusto eum ab consequuntur consectetur aperiam ratione inventore ducimus provident off</p>
+                </div>
+                <div class="content " id='three'>
+                    <h3>Three</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer class="section">
+        <p>Copyright &copy; <span class="date"></span></p>
+    </footer>
+    <script src="./tabs.js"></script>
+</body>
+</html>
