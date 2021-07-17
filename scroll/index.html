@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../navbar/styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="head">
+        <nav>
+            <div class="logo">
+                <h3>Logo</h3>
+            </div>
+            <ul class="tags__navbar tags__navbar-active tags__navbar-scroll">
+                <li><a href="#home" class="scroll-link">Home</a></li>
+                <li><a href="#about" class="scroll-link">About</a></li>
+                <li><a href="#work" class="scroll-link">Work</a></li>
+                <li><a href="#projects" class="scroll-link">Projects</a></li>
+                <li><a href="#contact" class="scroll-link">Contact</a></li>
+                
+            </ul>
+            <div class="menu__btn">
+                <button class="menu__navbar-btn" id="btn">Menu</button>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <div class="container">
+            <section id="home" class="section">
+                <div class="title">
+                    <h2>Home</h2>
+                </div>
+            </section>
+            <section id="about" class="section">
+                <div class="title">
+                    <h2>About</h2>
+                </div>
+            </section>
+            <section id="work" class="section">
+                <div class="title">
+                    <h2>Work</h2>
+                </div>
+            </section>
+            <section id="projects" class="section">
+                <div class="title">
+                    <h2>Projects</h2>
+                </div>
+            </section>
+            <section id="contact" class="section">
+                <div class="title">
+                    <h2>Contact</h2>
+                </div>
+            </section>
+            <button class="top-btn">TOP</button>
+        </div>
+    </main>
+    <footer class="section">
+        <p>Copyright &copy; <span class="date"></span></p>
+    </footer>
+    <script src="../navbar/menu.js"></script>
+    <script src="./scroll.js"></script>
+</body>
+</html>

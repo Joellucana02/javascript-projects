@@ -1,0 +1,25 @@
+*{
+    scroll-behavior: smooth;
+}
+.section{
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    position: fixed;
+    background: #777;
+}
+section:nth-child(odd){
+    background: #646964;
+}
+footer{
+    background:#556;
+}
+/* .container{
+    position: relative;
+} */
+.top-btn-active{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
